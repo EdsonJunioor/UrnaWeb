@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row">
+    <div class="text-center mt-30">
+      <h1>Apuração de votos</h1>
+    </div>
+    <div class="card text-white bg-primary mb-3 ml-10 mt-30" style="max-width: 18rem;" *ngFor="let votos of totalVotos">
+      <div class="card-header text-center">Candidato</div>
+      <div class="card-body text-center">
+        <h5 class="card-title">{{votos.candidato}}</h5>
+        <h5 class="card-title">Votos: {{votos.totalVotos}}</h5>
+      </div>
+    </div>
+
+  </div>
+</div>
